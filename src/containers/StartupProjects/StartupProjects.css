@@ -25,14 +25,17 @@
   justify-content: center;
 }
 .project-card-light {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .project-card-dark {
-  box-shadow: 0px 10px 30px -15px #d9dbdf;
+  /* box-shadow: 0px 10px 30px -15px #d9dbdf; */
+  box-shadow: rgba(210, 215, 211, 0.1) 0px 3px 6px,
+    rgba(210, 215, 211, 0.23) 0px 3px 6px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
@@ -42,10 +45,13 @@
   text-align: center;
 }
 .project-card-light:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px; */
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 .project-card-dark:hover {
-  box-shadow: #d9dbdf 0px 20px 30px -10px;
+  box-shadow: #d9dbdf 10px 10px 10px -12px;
 }
 .project-image {
   position: relative;

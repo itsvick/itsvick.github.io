@@ -25,9 +25,10 @@ const socialMediaLinks = {
   github: "https://github.com/itsvick",
   linkedin: "https://www.linkedin.com/in/vivek-kasture",
   // gmail: "itsvick@gmail.com",
-  // medium: "https://medium.com/@vivekkasture",
+  medium: "https://medium.com/@vivekkasture",
   stackoverflow: "https://stackoverflow.com/users/4725898/vivek-kasture",
   instagram: "https://www.instagram.com/kasturevivek",
+  twitter: "https://twitter.com/its_vick_k",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -85,10 +86,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "pouchDB",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -97,10 +98,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "electron",
       fontAwesomeClassname: "fas fa-atom"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
     {
       skillName: "git",
       fontAwesomeClassname: "fab fa-git-square"
@@ -108,11 +109,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "jira",
       fontAwesomeClassname: "fab fa-jira"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -122,6 +123,12 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
+    {
+      schoolName: "Vivekanand College, Kolhapur",
+      logo: require("./assets/images/vck.jpeg"),
+      subHeader: "Under graduation",
+      duration: "July 2009 - May 2011"
+    },
     {
       schoolName: "Chhatrapati Shivaji Maharaj University",
       logo: require("./assets/images/suk-logo.png"),
@@ -139,7 +146,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -165,7 +172,7 @@ const workExperiences = {
     {
       role: "Sr.Software Engineer",
       company: "Tekdi Technologies Pvt Ltd",
-      companylogo: require("./assets/images/tekdi.png"),
+      companylogo: require("./assets/images/tekdi.jpg"),
       date: "Jan 2016 – present",
       desc: "Worked on various exciting projects with this organization while performing various roles"
     }
@@ -179,7 +186,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "itsvick", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -344,24 +351,24 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle: "I love to share the knowledge I gain",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@vivekkasture/html-elements-and-attributes-that-can-reduce-your-bunch-of-lines-of-css-and-javascript-5d1f67046ed7",
+      title:
+        "HTML elements and attributes that can reduce your bunch of lines of CSS and Javascript",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "A list of highly underrated HTML elements and attributes that can reduce your bunch of lines of CSS and Javascript"
     },
     {
-      url: "https://medium.com/itsvick/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@vivekkasture/convert-your-angular-libraries-into-web-components-8f2c4c658675",
+      title: "Convert your Angular libraries into web-components",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "This will help you to create a web-component from your Angular library"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
