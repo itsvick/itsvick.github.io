@@ -12,6 +12,26 @@ on:
   schedule:
     - cron: "0 12 * * 1" # see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
 jobs:
+  check-format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+
+      - name: Install Prettier
+        run: npm install -g prettier
+
+      - name: Check Format
+        run: |
+          prettier -c "./**/*.{js,css,json}"
+
+
   build-and-deploy:
     needs: check-format
     runs-on: ubuntu-latest
