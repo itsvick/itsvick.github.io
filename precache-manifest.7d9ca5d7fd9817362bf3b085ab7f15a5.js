@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a84f453bf17a2646e8f5f06bdca017c",
+    "revision": "bb5accca0bcd7da8bf8e22cda5396386",
     "url": "/index.html"
   },
   {
-    "revision": "c13d54de00d361cca0da",
+    "revision": "57c37f4e87eff1d15ab5",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "25dd6649159b6f9a01a2",
+    "revision": "69964bc1df79981420d5",
     "url": "/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "290ccfb03ef09628c127",
-    "url": "/static/css/main.ea53a5d1.chunk.css"
+    "revision": "3e1c3edf33926ac865b1",
+    "url": "/static/css/main.02192a86.chunk.css"
   },
   {
-    "revision": "5a522edf41352fd4c9fb",
-    "url": "/static/js/2.f2e35554.chunk.js"
+    "revision": "732758df637e92892191",
+    "url": "/static/js/2.6abd7ddb.chunk.js"
   },
   {
     "revision": "0a6d64cd3b49be6a14afdf21fa7c6d43",
-    "url": "/static/js/2.f2e35554.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6abd7ddb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c13d54de00d361cca0da",
-    "url": "/static/js/3.525e104b.chunk.js"
+    "revision": "57c37f4e87eff1d15ab5",
+    "url": "/static/js/3.a45450b6.chunk.js"
   },
   {
-    "revision": "25dd6649159b6f9a01a2",
-    "url": "/static/js/4.f2717f9a.chunk.js"
+    "revision": "69964bc1df79981420d5",
+    "url": "/static/js/4.f440779b.chunk.js"
   },
   {
-    "revision": "290ccfb03ef09628c127",
-    "url": "/static/js/main.3c6d4b68.chunk.js"
+    "revision": "3e1c3edf33926ac865b1",
+    "url": "/static/js/main.c062d1ab.chunk.js"
   },
   {
-    "revision": "812ec9343d1b46ab457a",
-    "url": "/static/js/runtime-main.fe847b6d.js"
+    "revision": "883a45b6c81493443789",
+    "url": "/static/js/runtime-main.bf6c0031.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -90,9 +90,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
     "url": "/static/media/talksCardBack.13780cdd.svg"
-  },
-  {
-    "revision": "3049e14501ee94579548831474cb2b28",
-    "url": "/static/media/tekdi.3049e145.png"
   }
 ]);
