@@ -1,1 +1,0 @@
-# itsvick.github.io
