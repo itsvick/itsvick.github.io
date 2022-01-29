@@ -39,47 +39,51 @@ export default function StartupProject() {
                       : "project-card project-card-light"
                   }
                 >
-                  {project.image ? (
-                    <div className="project-image">
+                  <div className="project-card-header">
+                    {project.image ? (
                       <img
                         src={project.image}
                         alt={project.projectName}
-                        className="card-image"
+                        className="project-card-image"
                       ></img>
+                    ) : null}
+                    {/* <div className="project-detail"> */}
+                    <div className="project-title">
+                      <h5
+                        className={
+                          isDark ? "dark-mode card-title" : "card-title"
+                        }
+                      >
+                        {project.projectName}
+                      </h5>
+                    </div>
+                  </div>
+                  <p
+                    className={
+                      isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                    }
+                  >
+                    {project.projectDesc}
+                  </p>
+                  <p> {project.technologies.join(", ")}</p>
+                  {project.footerLink ? (
+                    <div className="project-card-footer">
+                      {project.footerLink.map((link, i) => {
+                        return (
+                          <span
+                            key={i}
+                            className={
+                              isDark ? "dark-mode project-tag" : "project-tag"
+                            }
+                            onClick={() => openProjectInNewWindow(link.url)}
+                          >
+                            {link.name}
+                          </span>
+                        );
+                      })}
                     </div>
                   ) : null}
-                  <div className="project-detail">
-                    <h5
-                      className={isDark ? "dark-mode card-title" : "card-title"}
-                    >
-                      {project.projectName}
-                    </h5>
-                    <p
-                      className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                      }
-                    >
-                      {project.projectDesc}
-                    </p>
-                    <p> {project.technologies.join(", ")}</p>
-                    {project.footerLink ? (
-                      <div className="project-card-footer">
-                        {project.footerLink.map((link, i) => {
-                          return (
-                            <span
-                              key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
-                              onClick={() => openProjectInNewWindow(link.url)}
-                            >
-                              {link.name}
-                            </span>
-                          );
-                        })}
-                      </div>
-                    ) : null}
-                  </div>
+                  {/* </div> */}
                 </div>
               );
             })}

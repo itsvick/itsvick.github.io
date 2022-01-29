@@ -1,7 +1,6 @@
-.card-image {
-  max-width: 100%;
-  height: auto;
-  width: 150px;
+.project-card-image {
+  height: 100px;
+  width: 100px;
 }
 .card-title {
   color: #000000;
@@ -18,11 +17,12 @@
 .project-card {
   display: flex;
   flex-direction: column;
+
   background-color: rgb(255, 255, 255);
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
-  justify-content: center;
+  justify-content: flex-start;
 }
 .project-card-light {
   /* box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px; */
@@ -39,6 +39,17 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
+}
+
+.project-card-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.project-title h5 {
+  margin: 0 0 0 12px;
+  padding: 0;
 }
 
 .project-detail {

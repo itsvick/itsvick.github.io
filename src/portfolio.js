@@ -197,7 +197,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/diksha-logo.svg"),
-      projectName: "DIKSHA",
+      projectName: "Diksha",
       projectDesc:
         "The DIKSHA platform offers teachers, students and parents engaging learning material relevant to the prescribed school curriculum. Teachers have access to aids like lesson plans, worksheets and activities, to create enjoyable classroom experiences. Students understand concepts, revise lessons and do practice exercises",
       technologies: [
@@ -262,7 +262,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/joomla.png"),
-      projectName: "Joomla Article App",
+      projectName: "Joomla Article",
       projectDesc:
         "A Joomla based application where users can create their articles and choose when to publish or unpublish. It is a Joomla based application where users can create their articles and choose when to publish or unpublish.",
       technologies: ["Ionic", "Angular"],
@@ -403,8 +403,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all. Ping me on Linkedin, Twitter, Instagram or Github"
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all"
   // number: "",
   // email_address: ""
 };
