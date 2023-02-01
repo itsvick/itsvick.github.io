@@ -1,4 +1,4 @@
-  /* header */
+/* header */
 
 .dark-menu {
   background-color: #171c28 !important;
@@ -44,7 +44,7 @@
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: var(--light-theme-primary-color);
-  color: var(--white)
+  color: var(--white);
 }
 
 .header .logo {

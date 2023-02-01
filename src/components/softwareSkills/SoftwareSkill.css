@@ -29,6 +29,7 @@
   color: #645beb;
 }
 
-.software-skill-inline.dark-mode > i:hover, .software-skill-inline.dark-mode > i:hover ~ p{
+.software-skill-inline.dark-mode > i:hover,
+.software-skill-inline.dark-mode > i:hover ~ p {
   color: var(--dark-theme-primary-color) !important;
 }

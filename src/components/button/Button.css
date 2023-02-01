@@ -26,7 +26,7 @@
 .main-button-dark {
   background-color: var(--dark-theme-primary-color);
   border: solid 1px var(--dark-theme-primary-color);
-  color: var(--black) !important;  
+  color: var(--black) !important;
 }
 
 .main-button-dark:hover {
