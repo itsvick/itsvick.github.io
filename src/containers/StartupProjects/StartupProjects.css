@@ -95,6 +95,11 @@
   transition: 0.2s ease-in;
 }
 
+.dark-mode.project-tag {
+  background-color: var(--dark-theme-primary-color) !important;
+  color: var(--black) !important;
+}
+
 @media (max-width: 768px) {
   .project-subtitle {
     font-size: 16px;

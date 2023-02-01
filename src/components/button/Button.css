@@ -1,6 +1,6 @@
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
+  background-color: var(--light-theme-primary-color);
+  border: solid 1px var(--light-theme-primary-color);
   color: white;
   font-weight: 700;
   width: max-content;
@@ -18,10 +18,23 @@
 }
 .main-button:hover {
   background-color: #ffffff;
-  color: #55198b;
+  color: var(--light-theme-primary-color);
   transition: all 0.3s ease 0s;
   transform: translateY(-3px);
 }
+
+.main-button-dark {
+  background-color: var(--dark-theme-primary-color);
+  border: solid 1px var(--dark-theme-primary-color);
+  color: var(--black) !important;  
+}
+
+.main-button-dark:hover {
+  background-color: #ffffff;
+  color: var(--light-theme-primary-color);
+  border: solid 1px var(--light-theme-primary-color);
+}
+
 .project-button {
   display: flex;
   justify-content: center;
