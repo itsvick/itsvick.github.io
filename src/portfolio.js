@@ -12,7 +12,7 @@ const greeting = {
   username: "Vivek Kasture",
   title: "Hi all, I'm Vivek",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / Nodejs / Ionic and some other cool libraries and frameworks."
+    "Full Stack Software Developer with hands-on experience developing scalable web and mobile applications using JavaScript, React, Angular, Node.js, and a range of modern frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ZhD1-xDhP_lfTz7bfCVuWkG-Wh-j6Hry/view?usp=sharing",
