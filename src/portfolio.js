@@ -1,4 +1,4 @@
-﻿/* Change this file to get your personal Portfolio */
+/* Change this file to get your personal Portfolio */
 
 // Summary And Greeting Section
 
@@ -67,12 +67,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "Angular",
-      fontAwesomeClassname: "fab fa-angular"
-    },
-    {
       skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "nodejs",
@@ -109,11 +109,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "jira",
       fontAwesomeClassname: "fab fa-jira"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
     }
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -173,7 +173,32 @@ const workExperiences = {
       role: "Sr.Software Engineer",
       company: "Tekdi Technologies Pvt Ltd",
       companylogo: require("./assets/images/tekdi.jpg"),
-      date: "Jan 2016 – present",
+      date: "Jan 2016 – Aug 2017",
+      isOnSite: false,
+      desc: "Worked on various exciting projects with this organization while performing various roles"
+    },
+    {
+      role: "Sr.Software Engineer",
+      company: "EkStep Foundation",
+      companylogo: require("./assets/images/ekstep.jpg"),
+      date: "Aug 2017 – 2021",
+      isOnSite: true,
+      desc: "Worked on various exciting projects with this organization while performing various roles"
+    },
+    {
+      role: "Tech Lead",
+      company: "Tekdi Technologies Pvt Ltd",
+      companylogo: require("./assets/images/tekdi.jpg"),
+      date: "Jan 2021 – Feb 2025",
+      isOnSite: false,
+      desc: "Worked on various exciting projects with this organization while performing various roles"
+    },
+    {
+      role: "Sr.Software Consultant",
+      company: "MetricStream",
+      companylogo: require("./assets/images/metricstream.jpg"),
+      date: "Feb 2025 – Present",
+      isOnSite: true,
       desc: "Worked on various exciting projects with this organization while performing various roles"
     }
   ]
@@ -195,6 +220,102 @@ const bigProjects = {
   title: "Projects",
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      image: require("./assets/images/metricstream.jpg"),
+      projectName: "MetricStream Platform",
+      projectDesc:
+        "The MetricStream Platform is a comprehensive, cloud-based solution designed to help organizations manage Governance, Risk, and Compliance (GRC) activities effectively. It provides a unified framework that integrates various risk management processes, enabling businesses to transform risk into a strategic advantage.",
+      technologies: [
+        "React",
+        "React-Native",
+        "Ag-grid",
+        "Storybook",
+        "Jest"
+      ],
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/pratham.jpg"),
+      projectName: "Pratham Learning Management App",
+      projectDesc:
+        "Pratham's Second Chance program focuses on providing school dropouts, especially young girls and women, another chance at education. Second Chance aims to support those who could not complete their secondary education. The program focuses on completion of Grade 10. The academic certificate that they receive opens the door for further opportunities for lifelong learning and growth. The Second Chance program uses innovative teaching methods, to provide accessible learning opportunities very close to where the students live.",
+      technologies: [
+        "Next.js",
+        "Webpack Module Federation",
+        "Nx",
+        "Nest.js",
+        "Jest",
+        "Cypress",
+        "GA",
+        "FCM",
+        "PWA",
+        "Sentry",
+        "TanStack Query",
+        "Zustand",
+        "Keyclock",
+        "i18n"
+      ],
+      footerLink: [
+        {
+          name: "Visit LMP Portal",
+          url: "https://lmp.prathamdigital.org/login"
+        },
+        {
+          name: "Visit LAP Portal",
+          url: "https://lap.prathamdigital.org/login"
+        },
+        {
+          name: "Visit Pratham Learning App",
+          url: "https://play.google.com/store/apps/details?id=com.pratham.learning&hl=en_IN"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/haqdarshak.webp"),
+      projectName: "Haqdarshak",
+      projectDesc:
+        "Haqdarshak is a social enterprise that leverages technology to help individuals and businesses identify and access government welfare programs they are eligible for. It utilizes a mobile app and a network of local agents, called Haqdarshaks, to improve awareness and increase the uptake of these benefits. Haqdarshak also provides support to beneficiaries in applying for these programs. ",
+      technologies: [
+        "React",
+        "Nest.js",
+        "Keycloak",
+        "PWA",
+        "TypeORM",
+        "react-i18n",
+        "GA",
+        "FCM Push Notifications",
+        "Google Maps",
+        "Android",
+        "Bubblewrap",
+        "GitHub Action",
+        "Docker",
+        "AWS S3",
+        "Cloudflare"
+      ],
+      footerLink: [
+        {
+          name: "Visit Haqdarshak Portal",
+          url: "https://customer.haqdarshak.com"
+        },
+        {
+          name: "Visit Haqdarshak App",
+          url: "https://play.google.com/store/apps/details?id=com.haqdarshak.jana&hl=en_IN"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ulp.png"),
+      projectName: "Universal Learning Passport",
+      projectDesc:
+        "Unified Learners Passport (ULP) is a single source of digital credentials for learners across levels, that will help them easily discover and avail opportunities for academic or professional growth with vision to To revolutionize the way educational credentials are accessed, shared, and trusted in India",
+      technologies: [
+        "Angular 12",
+        "Nest.js",
+        "Docker",
+        "GitHub Actions"
+      ],
+      footerLink: []
+    },
     {
       image: require("./assets/images/diksha-logo.svg"),
       projectName: "Diksha",
