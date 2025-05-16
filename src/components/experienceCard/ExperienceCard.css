@@ -124,6 +124,48 @@
   margin-top: 2rem;
 }
 
+/* Ribbon for Onsite */
+.experience-ribbon {
+  position: absolute;
+  top: 15px;
+  right: -5px;
+  z-index: 1;
+}
+
+.experience-ribbon span {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #ff3a3a;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 3px 0 0 3px;
+}
+
+.experience-ribbon span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -10px;
+  border-width: 13px 10px 14px 0;
+  border-style: solid;
+  border-color: #ff3a3a transparent #ff3a3a #ff3a3a;
+}
+
+.experience-ribbon span::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  width: 5px;
+  height: 5px;
+  background-color: #b71c1c;
+  border-radius: 5px 0 0 5px;
+}
+
 /* Media Query */
 
 @media (max-width: 1380px) {
