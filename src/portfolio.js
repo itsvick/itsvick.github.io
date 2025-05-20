@@ -225,13 +225,7 @@ const bigProjects = {
       projectName: "MetricStream Platform",
       projectDesc:
         "The MetricStream Platform is a comprehensive, cloud-based solution designed to help organizations manage Governance, Risk, and Compliance (GRC) activities effectively. It provides a unified framework that integrates various risk management processes, enabling businesses to transform risk into a strategic advantage.",
-      technologies: [
-        "React",
-        "React-Native",
-        "Ag-grid",
-        "Storybook",
-        "Jest"
-      ],
+      technologies: ["React", "React-Native", "Ag-grid", "Storybook", "Jest"],
       footerLink: []
     },
     {
@@ -308,12 +302,7 @@ const bigProjects = {
       projectName: "Universal Learning Passport",
       projectDesc:
         "Unified Learners Passport (ULP) is a single source of digital credentials for learners across levels, that will help them easily discover and avail opportunities for academic or professional growth with vision to To revolutionize the way educational credentials are accessed, shared, and trusted in India",
-      technologies: [
-        "Angular 12",
-        "Nest.js",
-        "Docker",
-        "GitHub Actions"
-      ],
+      technologies: ["Angular 12", "Nest.js", "Docker", "GitHub Actions"],
       footerLink: []
     },
     {
