@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ea675f30ffbd6c7b7c89b5bcb4df348",
+    "revision": "5aea405f38276733d54c7a6e3b215e2e",
     "url": "/index.html"
   },
   {
-    "revision": "57c37f4e87eff1d15ab5",
+    "revision": "cfe8c6b31d5812899480",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "69964bc1df79981420d5",
+    "revision": "7d9c0d25faaef8623747",
     "url": "/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "2ee5d3a408ce154dc4ac",
-    "url": "/static/css/main.42aa4386.chunk.css"
+    "revision": "039c67c25b7a8209729d",
+    "url": "/static/css/main.deb006f8.chunk.css"
   },
   {
-    "revision": "732758df637e92892191",
-    "url": "/static/js/2.6abd7ddb.chunk.js"
+    "revision": "2d549677c2dc633ea59a",
+    "url": "/static/js/2.0cca75a0.chunk.js"
   },
   {
     "revision": "0a6d64cd3b49be6a14afdf21fa7c6d43",
-    "url": "/static/js/2.6abd7ddb.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0cca75a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "57c37f4e87eff1d15ab5",
-    "url": "/static/js/3.a45450b6.chunk.js"
+    "revision": "cfe8c6b31d5812899480",
+    "url": "/static/js/3.218cde48.chunk.js"
   },
   {
-    "revision": "69964bc1df79981420d5",
-    "url": "/static/js/4.f440779b.chunk.js"
+    "revision": "7d9c0d25faaef8623747",
+    "url": "/static/js/4.0c9760f4.chunk.js"
   },
   {
-    "revision": "2ee5d3a408ce154dc4ac",
-    "url": "/static/js/main.f933310f.chunk.js"
+    "revision": "039c67c25b7a8209729d",
+    "url": "/static/js/main.42e71c94.chunk.js"
   },
   {
-    "revision": "883a45b6c81493443789",
-    "url": "/static/js/runtime-main.bf6c0031.js"
+    "revision": "cf0e5367631bf9e62af5",
+    "url": "/static/js/runtime-main.c7ed04de.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bbd205145d18c228d6bc2de0b78b63a0",
     "url": "/static/media/easysocial.bbd20514.png"
+  },
+  {
+    "revision": "88ba63df4aa3debda67de06551c5bed4",
+    "url": "/static/media/haqdarshak.88ba63df.webp"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
